@@ -1,1 +1,10 @@
 # weatherforcasting
+ML can be incredibly effective in enhancing the accuracy of weather forecasting models. By identifying patterns in historical data, ML models can predict weather events (like storms, temperature changes, and rainfall) with remarkable precision – even in highly complex and dynamic systems.
+
+ML's effectiveness largely derives from the fact that it can be trained on various data sources, like weather station data, satellite imagery, and radar data. In addition, these models can also incorporate supplementary data sources like social media, crowdsourced observations, and environmental sensors.
+
+Feeding models this data allows them to understand the relationship between different weather variables and subsequently make more accurate predictions. These data sources can also be used to validate and improve the accuracy of the models by comparing the model's predictions to the actual weather conditions observed in the real world.
+
+ML models can analyze vast amounts of data in real-time, allowing for more frequent and precise forecasts. They also update quickly when new information is received.
+Meteorological phenomena is an area in which a large amount of data is generated and where it is more difficult to make predictions about events that will occur due to the high number of variables on which they depend. In general, for this, probabilistic models are used that offer predictions with a margin of error, so that in many cases they are not very good. Due to the aforementioned conditions, the use of machine learning algorithms can serve to improve predictions. 
+This article describes an exploratory study of the use of machine learning to make predictions about the phenomenon of rain. To do this, a set of data was taken as an example that describes the measurements gathered on rainfall in the main cities of Australia in the last 10 years, and some of the main machine learning algorithms were applied (knn, decision tree, random forest, and neural networks). The results show that the best model is based on neural networks
